@@ -1,7 +1,7 @@
 CMakeFiles/zinx_study.dir/src/stdinoutchannel.cpp.o: \
- /home/robin/test/StudyZinx/src/stdinoutchannel.cpp \
+ /home/robin/test/StudyZinx/StudyZinx_Echo_TCP/src/stdinoutchannel.cpp \
  /usr/include/stdc-predef.h \
- /home/robin/test/StudyZinx/include/stdinoutchannel.hpp \
+ /home/robin/test/StudyZinx/StudyZinx_Echo_TCP/include/stdinoutchannel.hpp \
  /usr/include/zinx.h /opt/rh/devtoolset-7/root/usr/include/c++/7/string \
  /opt/rh/devtoolset-7/root/usr/include/c++/7/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \
@@ -145,7 +145,7 @@ CMakeFiles/zinx_study.dir/src/stdinoutchannel.cpp.o: \
  /usr/include/bits/sigcontext.h /usr/include/bits/sigstack.h \
  /usr/include/sys/ucontext.h /usr/include/bits/sigthread.h \
  /usr/include/ZinxTCP.h /usr/include/zinx.h \
- /home/robin/test/StudyZinx/include/cmdcheckprotocol.hpp \
+ /home/robin/test/StudyZinx/StudyZinx_Echo_TCP/include/cmdcheckprotocol.hpp \
  /opt/rh/devtoolset-7/root/usr/include/c++/7/thread \
  /opt/rh/devtoolset-7/root/usr/include/c++/7/chrono \
  /opt/rh/devtoolset-7/root/usr/include/c++/7/ratio \

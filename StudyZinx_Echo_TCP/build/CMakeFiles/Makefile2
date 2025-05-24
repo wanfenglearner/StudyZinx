@@ -54,10 +54,10 @@ RM = /home/robin/workplace/cmake-3.22.0-linux-x86_64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/robin/test/StudyZinx
+CMAKE_SOURCE_DIR = /home/robin/test/StudyZinx/StudyZinx_Echo_TCP
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/robin/test/StudyZinx/build
+CMAKE_BINARY_DIR = /home/robin/test/StudyZinx/StudyZinx_Echo_TCP/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/zinx_study.dir/clean
 CMakeFiles/zinx_study.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zinx_study.dir/build.make CMakeFiles/zinx_study.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zinx_study.dir/build.make CMakeFiles/zinx_study.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/robin/test/StudyZinx/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target zinx_study"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/robin/test/StudyZinx/StudyZinx_Echo_TCP/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target zinx_study"
 .PHONY : CMakeFiles/zinx_study.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/zinx_study.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robin/test/StudyZinx/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robin/test/StudyZinx/StudyZinx_Echo_TCP/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/zinx_study.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robin/test/StudyZinx/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robin/test/StudyZinx/StudyZinx_Echo_TCP/build/CMakeFiles 0
 .PHONY : CMakeFiles/zinx_study.dir/rule
 
 # Convenience name for target.

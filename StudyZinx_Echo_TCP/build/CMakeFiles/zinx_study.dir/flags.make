@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/robin/test/StudyZinx/include
+CXX_INCLUDES = -I/home/robin/test/StudyZinx/StudyZinx_Echo_TCP/include
 
 CXX_FLAGS = -g
 

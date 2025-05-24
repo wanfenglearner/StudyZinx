@@ -1,6 +1,7 @@
 CMakeFiles/zinx_study.dir/src/main.cpp.o: \
- /home/robin/test/StudyZinx/src/main.cpp /usr/include/stdc-predef.h \
- /home/robin/test/StudyZinx/include/stdinoutchannel.hpp \
+ /home/robin/test/StudyZinx/StudyZinx_Echo_TCP/src/main.cpp \
+ /usr/include/stdc-predef.h \
+ /home/robin/test/StudyZinx/StudyZinx_Echo_TCP/include/stdinoutchannel.hpp \
  /usr/include/zinx.h /opt/rh/devtoolset-7/root/usr/include/c++/7/string \
  /opt/rh/devtoolset-7/root/usr/include/c++/7/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \
@@ -144,7 +145,7 @@ CMakeFiles/zinx_study.dir/src/main.cpp.o: \
  /usr/include/bits/sigcontext.h /usr/include/bits/sigstack.h \
  /usr/include/sys/ucontext.h /usr/include/bits/sigthread.h \
  /usr/include/ZinxTCP.h /usr/include/zinx.h \
- /home/robin/test/StudyZinx/include/roles.hpp \
+ /home/robin/test/StudyZinx/StudyZinx_Echo_TCP/include/roles.hpp \
  /opt/rh/devtoolset-7/root/usr/include/c++/7/memory \
  /opt/rh/devtoolset-7/root/usr/include/c++/7/bits/stl_construct.h \
  /opt/rh/devtoolset-7/root/usr/include/c++/7/bits/stl_uninitialized.h \

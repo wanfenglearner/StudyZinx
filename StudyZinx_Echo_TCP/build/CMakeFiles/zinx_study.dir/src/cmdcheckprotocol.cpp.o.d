@@ -1,7 +1,7 @@
 CMakeFiles/zinx_study.dir/src/cmdcheckprotocol.cpp.o: \
- /home/robin/test/StudyZinx/src/cmdcheckprotocol.cpp \
+ /home/robin/test/StudyZinx/StudyZinx_Echo_TCP/src/cmdcheckprotocol.cpp \
  /usr/include/stdc-predef.h \
- /home/robin/test/StudyZinx/include/cmdcheckprotocol.hpp \
+ /home/robin/test/StudyZinx/StudyZinx_Echo_TCP/include/cmdcheckprotocol.hpp \
  /usr/include/zinx.h /opt/rh/devtoolset-7/root/usr/include/c++/7/string \
  /opt/rh/devtoolset-7/root/usr/include/c++/7/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \
@@ -144,6 +144,6 @@ CMakeFiles/zinx_study.dir/src/cmdcheckprotocol.cpp.o: \
  /usr/include/bits/signum.h /usr/include/bits/sigaction.h \
  /usr/include/bits/sigcontext.h /usr/include/bits/sigstack.h \
  /usr/include/sys/ucontext.h /usr/include/bits/sigthread.h \
- /home/robin/test/StudyZinx/include/cmdmsg.hpp \
+ /home/robin/test/StudyZinx/StudyZinx_Echo_TCP/include/cmdmsg.hpp \
  /opt/rh/devtoolset-7/root/usr/include/c++/7/cstring \
- /home/robin/test/StudyZinx/include/roles.hpp
+ /home/robin/test/StudyZinx/StudyZinx_Echo_TCP/include/roles.hpp

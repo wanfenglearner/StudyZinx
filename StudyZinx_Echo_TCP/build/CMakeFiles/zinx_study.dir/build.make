@@ -53,10 +53,10 @@ RM = /home/robin/workplace/cmake-3.22.0-linux-x86_64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/robin/test/StudyZinx
+CMAKE_SOURCE_DIR = /home/robin/test/StudyZinx/StudyZinx_Echo_TCP
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/robin/test/StudyZinx/build
+CMAKE_BINARY_DIR = /home/robin/test/StudyZinx/StudyZinx_Echo_TCP/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/zinx_study.dir/depend.make
@@ -72,72 +72,72 @@ include CMakeFiles/zinx_study.dir/flags.make
 CMakeFiles/zinx_study.dir/src/cmdcheckprotocol.cpp.o: CMakeFiles/zinx_study.dir/flags.make
 CMakeFiles/zinx_study.dir/src/cmdcheckprotocol.cpp.o: ../src/cmdcheckprotocol.cpp
 CMakeFiles/zinx_study.dir/src/cmdcheckprotocol.cpp.o: CMakeFiles/zinx_study.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robin/test/StudyZinx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/zinx_study.dir/src/cmdcheckprotocol.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/zinx_study.dir/src/cmdcheckprotocol.cpp.o -MF CMakeFiles/zinx_study.dir/src/cmdcheckprotocol.cpp.o.d -o CMakeFiles/zinx_study.dir/src/cmdcheckprotocol.cpp.o -c /home/robin/test/StudyZinx/src/cmdcheckprotocol.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robin/test/StudyZinx/StudyZinx_Echo_TCP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/zinx_study.dir/src/cmdcheckprotocol.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/zinx_study.dir/src/cmdcheckprotocol.cpp.o -MF CMakeFiles/zinx_study.dir/src/cmdcheckprotocol.cpp.o.d -o CMakeFiles/zinx_study.dir/src/cmdcheckprotocol.cpp.o -c /home/robin/test/StudyZinx/StudyZinx_Echo_TCP/src/cmdcheckprotocol.cpp
 
 CMakeFiles/zinx_study.dir/src/cmdcheckprotocol.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zinx_study.dir/src/cmdcheckprotocol.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robin/test/StudyZinx/src/cmdcheckprotocol.cpp > CMakeFiles/zinx_study.dir/src/cmdcheckprotocol.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robin/test/StudyZinx/StudyZinx_Echo_TCP/src/cmdcheckprotocol.cpp > CMakeFiles/zinx_study.dir/src/cmdcheckprotocol.cpp.i
 
 CMakeFiles/zinx_study.dir/src/cmdcheckprotocol.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zinx_study.dir/src/cmdcheckprotocol.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robin/test/StudyZinx/src/cmdcheckprotocol.cpp -o CMakeFiles/zinx_study.dir/src/cmdcheckprotocol.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robin/test/StudyZinx/StudyZinx_Echo_TCP/src/cmdcheckprotocol.cpp -o CMakeFiles/zinx_study.dir/src/cmdcheckprotocol.cpp.s
 
 CMakeFiles/zinx_study.dir/src/cmdmsg.cpp.o: CMakeFiles/zinx_study.dir/flags.make
 CMakeFiles/zinx_study.dir/src/cmdmsg.cpp.o: ../src/cmdmsg.cpp
 CMakeFiles/zinx_study.dir/src/cmdmsg.cpp.o: CMakeFiles/zinx_study.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robin/test/StudyZinx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/zinx_study.dir/src/cmdmsg.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/zinx_study.dir/src/cmdmsg.cpp.o -MF CMakeFiles/zinx_study.dir/src/cmdmsg.cpp.o.d -o CMakeFiles/zinx_study.dir/src/cmdmsg.cpp.o -c /home/robin/test/StudyZinx/src/cmdmsg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robin/test/StudyZinx/StudyZinx_Echo_TCP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/zinx_study.dir/src/cmdmsg.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/zinx_study.dir/src/cmdmsg.cpp.o -MF CMakeFiles/zinx_study.dir/src/cmdmsg.cpp.o.d -o CMakeFiles/zinx_study.dir/src/cmdmsg.cpp.o -c /home/robin/test/StudyZinx/StudyZinx_Echo_TCP/src/cmdmsg.cpp
 
 CMakeFiles/zinx_study.dir/src/cmdmsg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zinx_study.dir/src/cmdmsg.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robin/test/StudyZinx/src/cmdmsg.cpp > CMakeFiles/zinx_study.dir/src/cmdmsg.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robin/test/StudyZinx/StudyZinx_Echo_TCP/src/cmdmsg.cpp > CMakeFiles/zinx_study.dir/src/cmdmsg.cpp.i
 
 CMakeFiles/zinx_study.dir/src/cmdmsg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zinx_study.dir/src/cmdmsg.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robin/test/StudyZinx/src/cmdmsg.cpp -o CMakeFiles/zinx_study.dir/src/cmdmsg.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robin/test/StudyZinx/StudyZinx_Echo_TCP/src/cmdmsg.cpp -o CMakeFiles/zinx_study.dir/src/cmdmsg.cpp.s
 
 CMakeFiles/zinx_study.dir/src/main.cpp.o: CMakeFiles/zinx_study.dir/flags.make
 CMakeFiles/zinx_study.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/zinx_study.dir/src/main.cpp.o: CMakeFiles/zinx_study.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robin/test/StudyZinx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/zinx_study.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/zinx_study.dir/src/main.cpp.o -MF CMakeFiles/zinx_study.dir/src/main.cpp.o.d -o CMakeFiles/zinx_study.dir/src/main.cpp.o -c /home/robin/test/StudyZinx/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robin/test/StudyZinx/StudyZinx_Echo_TCP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/zinx_study.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/zinx_study.dir/src/main.cpp.o -MF CMakeFiles/zinx_study.dir/src/main.cpp.o.d -o CMakeFiles/zinx_study.dir/src/main.cpp.o -c /home/robin/test/StudyZinx/StudyZinx_Echo_TCP/src/main.cpp
 
 CMakeFiles/zinx_study.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zinx_study.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robin/test/StudyZinx/src/main.cpp > CMakeFiles/zinx_study.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robin/test/StudyZinx/StudyZinx_Echo_TCP/src/main.cpp > CMakeFiles/zinx_study.dir/src/main.cpp.i
 
 CMakeFiles/zinx_study.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zinx_study.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robin/test/StudyZinx/src/main.cpp -o CMakeFiles/zinx_study.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robin/test/StudyZinx/StudyZinx_Echo_TCP/src/main.cpp -o CMakeFiles/zinx_study.dir/src/main.cpp.s
 
 CMakeFiles/zinx_study.dir/src/roles.cpp.o: CMakeFiles/zinx_study.dir/flags.make
 CMakeFiles/zinx_study.dir/src/roles.cpp.o: ../src/roles.cpp
 CMakeFiles/zinx_study.dir/src/roles.cpp.o: CMakeFiles/zinx_study.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robin/test/StudyZinx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/zinx_study.dir/src/roles.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/zinx_study.dir/src/roles.cpp.o -MF CMakeFiles/zinx_study.dir/src/roles.cpp.o.d -o CMakeFiles/zinx_study.dir/src/roles.cpp.o -c /home/robin/test/StudyZinx/src/roles.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robin/test/StudyZinx/StudyZinx_Echo_TCP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/zinx_study.dir/src/roles.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/zinx_study.dir/src/roles.cpp.o -MF CMakeFiles/zinx_study.dir/src/roles.cpp.o.d -o CMakeFiles/zinx_study.dir/src/roles.cpp.o -c /home/robin/test/StudyZinx/StudyZinx_Echo_TCP/src/roles.cpp
 
 CMakeFiles/zinx_study.dir/src/roles.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zinx_study.dir/src/roles.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robin/test/StudyZinx/src/roles.cpp > CMakeFiles/zinx_study.dir/src/roles.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robin/test/StudyZinx/StudyZinx_Echo_TCP/src/roles.cpp > CMakeFiles/zinx_study.dir/src/roles.cpp.i
 
 CMakeFiles/zinx_study.dir/src/roles.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zinx_study.dir/src/roles.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robin/test/StudyZinx/src/roles.cpp -o CMakeFiles/zinx_study.dir/src/roles.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robin/test/StudyZinx/StudyZinx_Echo_TCP/src/roles.cpp -o CMakeFiles/zinx_study.dir/src/roles.cpp.s
 
 CMakeFiles/zinx_study.dir/src/stdinoutchannel.cpp.o: CMakeFiles/zinx_study.dir/flags.make
 CMakeFiles/zinx_study.dir/src/stdinoutchannel.cpp.o: ../src/stdinoutchannel.cpp
 CMakeFiles/zinx_study.dir/src/stdinoutchannel.cpp.o: CMakeFiles/zinx_study.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robin/test/StudyZinx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/zinx_study.dir/src/stdinoutchannel.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/zinx_study.dir/src/stdinoutchannel.cpp.o -MF CMakeFiles/zinx_study.dir/src/stdinoutchannel.cpp.o.d -o CMakeFiles/zinx_study.dir/src/stdinoutchannel.cpp.o -c /home/robin/test/StudyZinx/src/stdinoutchannel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robin/test/StudyZinx/StudyZinx_Echo_TCP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/zinx_study.dir/src/stdinoutchannel.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/zinx_study.dir/src/stdinoutchannel.cpp.o -MF CMakeFiles/zinx_study.dir/src/stdinoutchannel.cpp.o.d -o CMakeFiles/zinx_study.dir/src/stdinoutchannel.cpp.o -c /home/robin/test/StudyZinx/StudyZinx_Echo_TCP/src/stdinoutchannel.cpp
 
 CMakeFiles/zinx_study.dir/src/stdinoutchannel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zinx_study.dir/src/stdinoutchannel.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robin/test/StudyZinx/src/stdinoutchannel.cpp > CMakeFiles/zinx_study.dir/src/stdinoutchannel.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robin/test/StudyZinx/StudyZinx_Echo_TCP/src/stdinoutchannel.cpp > CMakeFiles/zinx_study.dir/src/stdinoutchannel.cpp.i
 
 CMakeFiles/zinx_study.dir/src/stdinoutchannel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zinx_study.dir/src/stdinoutchannel.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robin/test/StudyZinx/src/stdinoutchannel.cpp -o CMakeFiles/zinx_study.dir/src/stdinoutchannel.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robin/test/StudyZinx/StudyZinx_Echo_TCP/src/stdinoutchannel.cpp -o CMakeFiles/zinx_study.dir/src/stdinoutchannel.cpp.s
 
 # Object files for target zinx_study
 zinx_study_OBJECTS = \
@@ -157,7 +157,7 @@ zinx_study_EXTERNAL_OBJECTS =
 ../bin/zinx_study: CMakeFiles/zinx_study.dir/src/stdinoutchannel.cpp.o
 ../bin/zinx_study: CMakeFiles/zinx_study.dir/build.make
 ../bin/zinx_study: CMakeFiles/zinx_study.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/robin/test/StudyZinx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ../bin/zinx_study"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/robin/test/StudyZinx/StudyZinx_Echo_TCP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ../bin/zinx_study"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/zinx_study.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -169,6 +169,6 @@ CMakeFiles/zinx_study.dir/clean:
 .PHONY : CMakeFiles/zinx_study.dir/clean
 
 CMakeFiles/zinx_study.dir/depend:
-	cd /home/robin/test/StudyZinx/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robin/test/StudyZinx /home/robin/test/StudyZinx /home/robin/test/StudyZinx/build /home/robin/test/StudyZinx/build /home/robin/test/StudyZinx/build/CMakeFiles/zinx_study.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/robin/test/StudyZinx/StudyZinx_Echo_TCP/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robin/test/StudyZinx/StudyZinx_Echo_TCP /home/robin/test/StudyZinx/StudyZinx_Echo_TCP /home/robin/test/StudyZinx/StudyZinx_Echo_TCP/build /home/robin/test/StudyZinx/StudyZinx_Echo_TCP/build /home/robin/test/StudyZinx/StudyZinx_Echo_TCP/build/CMakeFiles/zinx_study.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/zinx_study.dir/depend
 

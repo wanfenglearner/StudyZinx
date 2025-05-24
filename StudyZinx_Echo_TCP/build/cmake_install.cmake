@@ -1,4 +1,4 @@
-# Install script for directory: /home/robin/test/StudyZinx
+# Install script for directory: /home/robin/test/StudyZinx/StudyZinx_Echo_TCP
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/robin/test/StudyZinx/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/robin/test/StudyZinx/StudyZinx_Echo_TCP/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

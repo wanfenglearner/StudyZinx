@@ -1,7 +1,8 @@
 CMakeFiles/zinx_study.dir/src/cmdmsg.cpp.o: \
- /home/robin/test/StudyZinx/src/cmdmsg.cpp /usr/include/stdc-predef.h \
- /home/robin/test/StudyZinx/include/cmdmsg.hpp /usr/include/zinx.h \
- /opt/rh/devtoolset-7/root/usr/include/c++/7/string \
+ /home/robin/test/StudyZinx/StudyZinx_Echo_TCP/src/cmdmsg.cpp \
+ /usr/include/stdc-predef.h \
+ /home/robin/test/StudyZinx/StudyZinx_Echo_TCP/include/cmdmsg.hpp \
+ /usr/include/zinx.h /opt/rh/devtoolset-7/root/usr/include/c++/7/string \
  /opt/rh/devtoolset-7/root/usr/include/c++/7/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \
  /opt/rh/devtoolset-7/root/usr/include/c++/7/x86_64-redhat-linux/bits/os_defines.h \

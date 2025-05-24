@@ -74,14 +74,17 @@ std::string* CmdCheck::response2raw(UserData& _oUserData)
 Irole* CmdCheck::GetMsgProcessor(UserDataMsg& _oUserDataMsg)
 {
     // 根据命令不同, 将消息传递不同的 Irole对象
-
+    std::cout << "CmdCheck::GetMsgProcessor>>" << _oUserDataMsg.szInfo  << "  " << _oUserDataMsg.szInfo.size() << std::endl;
     // 获得当前的信息的来源信息
     if(strcasecmp(_oUserDataMsg.szInfo.c_str(), "stdin") == 0) {
 
         // 说明此消息的来源是标准输入， 那么将此消息回显到标准输出
         this->setOutchannelInfo("stdout");
     }
-
+    else
+    {
+        this->setOutchannelInfo(_oUserDataMsg.szInfo);
+    }
     // 判断当前消息类型
     GET_REF2DATA(CmdMsg, msg, *(_oUserDataMsg.poUserData));
     // 记录真正返回的 对象

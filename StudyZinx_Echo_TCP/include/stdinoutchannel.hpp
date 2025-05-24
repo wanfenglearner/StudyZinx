@@ -50,7 +50,6 @@ public:
 
 	MyTcpData(int fd = -1);
 	AZinxHandler* GetInputNextStage(BytesMsg& _oInput);
-
 };
 
 // 自定义 TCP连接工厂类
@@ -63,3 +62,4 @@ public:
 };
 
 #endif 
+

@@ -1,0 +1,3 @@
+/home/robin/test/StudyZinx/build/CMakeFiles/zinx_study.dir
+/home/robin/test/StudyZinx/build/CMakeFiles/edit_cache.dir
+/home/robin/test/StudyZinx/build/CMakeFiles/rebuild_cache.dir

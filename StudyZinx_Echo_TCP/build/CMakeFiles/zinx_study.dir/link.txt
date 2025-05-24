@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/zinx_study.dir/src/cmdcheckprotocol.cpp.o CMakeFiles/zinx_study.dir/src/cmdmsg.cpp.o CMakeFiles/zinx_study.dir/src/main.cpp.o CMakeFiles/zinx_study.dir/src/roles.cpp.o CMakeFiles/zinx_study.dir/src/stdinoutchannel.cpp.o -o ../bin/zinx_study  -lzinx -lpthread 
